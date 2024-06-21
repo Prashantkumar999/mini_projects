@@ -9,14 +9,15 @@
 </head>
 
 <body>
-    <section class=" w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500">
+    <section
+        class=" w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500">
         <div class="flex flex-col gap-10">
             <div class="text-xl font-bold text-white">Increment and Decrement</div>
-            <div id ="parent" class="flex justify-between bg-white h-14 py-2 rounded-full">
+            <div id="parent" class="flex justify-between bg-white h-14 py-2 rounded-full">
                 <button id="btn1" onclick="decrement()" class="text-xl w-20 border-r-4 border-red-500 group">
                     <i class="fa-solid fa-minus group-hover:scale-110 transition-all duration-200"></i>
                 </button>
-                <div id ="counter" class="text-xl w-[50%] h-full flex justify-center items-center font-bold">
+                <div id="counter" class="text-xl w-[50%] h-full flex justify-center items-center font-bold">
                     0
                 </div> <button id="btn2" onclick="increment()" class="text-xl w-20 border-l-4 border-red-500 group">
                     <i class="fa-solid fa-plus group-hover:scale-110 transition-all duration-200"></i>
@@ -26,8 +27,6 @@
     </section>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
-
-    
 
 </body>
 
